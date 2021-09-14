@@ -62,7 +62,7 @@ public class DemoApplication {
             for (Prize p : prizeRepository.findAll()) {
                 System.out.println(p.getGame().getGameName() + ": " + p.getOdds() + " " + p.getPrizeAmount());
             }
-            
+
 
         };
     }
